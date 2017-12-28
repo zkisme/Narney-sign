@@ -1,0 +1,14 @@
+{
+  "name": "narney-sign",
+  "version": "1.0.0",
+  "auth": "Narney",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel -o demo/index.html --out-dir demo-output",
+    "build": "parcel build demo/index.html --out-dir demo-output --no-minify --no-cache& gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
